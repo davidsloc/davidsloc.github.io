@@ -68,7 +68,6 @@ body{
     border: none;
     border-radius: 40px;
     font-size: 0.9em;
-    transition-delay: 0.2s;
 }
 
 .right button:hover{
@@ -96,7 +95,6 @@ body{
     height: 40px;
     width: 40px;
     margin: 10px;
-    transition-delay: 0.2s;
 }
 
 .buttons a:hover{
