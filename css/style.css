@@ -92,7 +92,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    min-height: 80vh;
+    height: 80%;
     width: 60%;
     background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
     border-radius: 2rem;
