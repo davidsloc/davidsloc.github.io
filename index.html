@@ -9,20 +9,5 @@
     </head>
     <body>
         <h1>Hello Pepperss</h1>
-        <script src="https://threejs.org/build/three.min.js"></script>
-        <script src="https://raw.githubusercontent.com/pchen66/panolens.js/master/build/panolens.min.js"></script>
-        
-        <div style="width: 698px; height: 400px;" class="pano-img"></div>
-      
-        <script>
-          const panoImg  = document.querySelector('.pano-img');
-          const panorama = new PANOLENS.ImagePanorama('./img/paronama_darbnica.jpg');
-          const viewer = new PANOLENS.Viewer({
-            container: panoImg,
-            autoRotate: true,
-            autoRotateSpeed: 0.5
-          });
-          viewer.add(panorama);
-        </script>
     </body>
 </html>
