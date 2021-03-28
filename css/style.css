@@ -16,6 +16,17 @@ main {
     justify-content: space-evenly;
 }
 
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 60%;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
 .glass{
     position: relative;
     display: flex;
@@ -88,12 +99,20 @@ p{
     flex-direction: column;
 }
 
+.nav-glass{
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+}
+
 .main-glass{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     height: 80%;
-    width: 60%;
+    width: 100%;
     background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
     border-radius: 2rem;
 }
