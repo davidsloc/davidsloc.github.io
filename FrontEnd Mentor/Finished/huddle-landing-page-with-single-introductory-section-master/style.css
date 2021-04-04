@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: hsl(257, 40%, 49%);
+    margin: 0 auto;
+    color: hsl(300, 69%, 71%);
+    background-image: url('./images/bg-desktop.svg');
+    background-size: 100%;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: top right;
+    z-index: -1;
+}
+
+.header{
+    display: flex;
+    padding: 0;
+    margin: 30px 70px;
+    width: 200px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.left{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    margin:40px 70px;
+    padding: 0;
+}
+
+.right{
+    display: flexbox;
+    width: 500px;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+    padding-top: 20px;
+    color: white;
+    height: 350px;
+}
+.right h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+}
+.right p{
+    font-size: 1.08em;
+}
+
+.right button{
+    margin-top: 10px;
+    color: hsl(257, 40%, 49%);
+    width: 175px;
+    height: 45px;
+    border: none;
+    border-radius: 40px;
+    font-size: 0.9em;
+}
+
+.right button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.buttons{
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    bottom: 40px;
+    right: 160px;
+    padding: 0;
+}
+
+.buttons a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.buttons a:hover{
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+@media only screen and (max-width: 1300px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        top: 350px;
+        right: 10px;
+    }
+  }
