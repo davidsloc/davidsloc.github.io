@@ -1,1 +1,0 @@
-# davidsloc.github.io
