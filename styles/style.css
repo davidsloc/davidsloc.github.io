@@ -23,8 +23,9 @@ body{
 .img-pos{
     min-width: 40vw;
 }
-.title{
+a{
     font-size: 5vh;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
