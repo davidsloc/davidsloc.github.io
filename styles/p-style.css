@@ -11,6 +11,80 @@ body{
     background-size: cover;
     min-height: 100vh;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.back-b{
+    display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 2vh;
+    left: 2vh;
+    cursor: pointer;
+}
+.back-b img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5vh;
+    height: 90vh;
+    width: 25vw;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2vh;
+    width: 100%;
+    height: 25%;
+}
+.avatar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid rgba(249, 253, 79, 0.7);
+    min-width: 10vh;
+    min-height: 10vh;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+.avatar img{
+    position: absolute;
+    width: 20vh;
+    height: 20vh;
+    top: -3vh;
+    left: -5.5vh;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 50%;
+    font-size: 2vh;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5vh;
+    height: 90vh;
+    width: 60vw;
 }
